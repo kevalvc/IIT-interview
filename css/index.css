@@ -1,5 +1,5 @@
 .main-data {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -53,4 +53,47 @@
   background-color: lightgrey;
   height: 550px;
   border-radius: 3%;
+  padding: 0;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.fsb {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.circle-xs {
+  background-color: limegreen;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: auto;
+  padding-top: 7px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.hexagon-xs::before, .hexagon-xs::after {
+  height: 11px !important;
+}
+
+.rect-xs {
+  /* padding-top: 3%; */
+  background-color: orange;
+  height: 30px;
+  color: white;
+  width: 50px;
+}
+
+.node-eles {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.tool-pal, .nodes-ws {
+  padding-bottom: 8px;
+  padding-top: 8px;
 }

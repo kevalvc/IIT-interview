@@ -1,0 +1,56 @@
+.main-data {
+  border: 2px solid red;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.my-navbar {
+  background-color: purple;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-save {
+  margin-left: 25%;
+}
+
+.btn-so {
+  margin-right: 25%;
+}
+
+.Workspace, .ws-ele {
+  color: white;
+  display: inline-block;
+}
+
+.tool-pal {
+  background-color: steelblue;
+  color: black;
+}
+
+.nodes-ws {
+  background-color: steelblue;
+  color: black;
+}
+
+.ws-data {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main-row {
+  padding-left: 0px;
+  border-radius: 3%;
+  padding-right: 0px;
+}
+
+.main-ws {
+  height: 550px;
+  background-color: #fff2cc;
+}
+
+.tp-full {
+  background-color: lightgrey;
+  height: 550px;
+  border-radius: 3%;
+}

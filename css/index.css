@@ -7,6 +7,7 @@
 .my-navbar {
   background-color: purple;
   padding-top: 25px;
+  padding-right: 15px;
   padding-bottom: 25px;
 }
 
@@ -69,7 +70,7 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  padding: auto;
+  /* padding: auto; */
   padding-top: 7px;
   text-align: center;
   vertical-align: middle;
@@ -96,4 +97,10 @@
 .tool-pal, .nodes-ws {
   padding-bottom: 8px;
   padding-top: 8px;
+}
+
+.new-cir, .new-hex, .new-rect {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  /* margin: auto !important; */
 }

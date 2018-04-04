@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/hexagon.min.css">
-  <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.css">
+  <!-- <link rel="stylesheet" href="css/font-awesome/css/fontawesome-all.css"> -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -23,15 +23,15 @@
         </div>
         <div>
           <br>
-          <p>This is a sample input of the agent's mesasage! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p>This is a sample input of the agent's mesasage! <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
       </div>
       <div class="col-md-10 main-data">
         <div class="my-navbar text-center">
           <span class="saver ws-ele" style="float:left;"><input type="submit" class="btn btn-info btn-save" name="" value="Save"></span>
           <span class="ws-ele text-center"> <h3 class="Workspace text-center">Workspace</h3> </span>
-          <span class="ws-ele" style="float: right;"><input type="submit" class="btn btn-info btn-so" name="" value="Start Over"></span>
+          <span class="ws-ele" style="float: right;"><input type="submit" class="btn btn-info btn-so" name="" onclick="clearAll()" value="Start Over"></span>
         </div>
         <br>
         <!-- <br> -->
@@ -55,7 +55,8 @@
           </div>
           <div class="col-md-8 main-row">
             <div class="main-ws">
-              <span class="element1">You can drag me only within this div.</span>
+              <br>
+              <!-- <span class="element1">You can drag me only within this div.</span> -->
             </div>
           </div>
           <div class="col-md-2 tp-full text-center">
@@ -81,9 +82,9 @@
 <script src="js/index.js" charset="utf-8"></script>
 <script src="js/bootstrap.min.js" charset="utf-8"></script>
 <script>
-  $(".element1").draggable({
-    containment: ".main-ws"
-  });
+  // $(".element1").draggable({
+  //   containment: ".main-ws"
+  // });
   // $("#div5 span").draggable({
   //   axis: "x"
   // });

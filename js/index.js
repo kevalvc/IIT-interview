@@ -1,11 +1,18 @@
-$(".element1").draggable({
-  containment: ".main-ws"
-});
+// $(".element1").draggable({
+//   containment: ".main-ws"
+// });
+
+function clearAll() {
+  $(".new-cir").remove();
+  $(".new-hex").remove();
+  $(".new-rect").remove();
+}
 
 function gencircle() {
   var mainws = document.getElementsByClassName("main-ws")[0];
   var newcir = document.createElement("div");
   newcir.setAttribute('class', 'circle-xs node-eles new-cir');
+  // newcir.setAttribute('id', '');
   newcir.innerHTML = '<span class="f-text" onclick="changeText(this)">F</span>';
   mainws.appendChild(newcir);
 
